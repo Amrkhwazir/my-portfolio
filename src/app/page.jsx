@@ -9,8 +9,8 @@ const Homepage = () => {
     <motion.div className="h-full" initial={{y: "-200vh"}} animate={{y: "0%"}} transition={{duration: 1.2}}>
     <div className="h-full overflow-y-scroll flex justify-around items-center flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
     {/* IMAGE CONTAINER */}
-    <div className="h-[180px] w-[180px] mt-12 md:mt-0 lg:mt-0 lg:h-3/4 lg:w-1/3 rounded-md ring-8 ring-blue-400 relative">
-      <Image src="/hero1.jpg" alt="user image" fill className="rounded-md"/>
+    <div className="h-[200px] w-[180px] mt-10 md:mt-0 lg:mt-0 lg:h-4/5 lg:w-1/3 rounded-full ring-4 ring-slate-100 relative">
+      <Image src="/hero3.jpg" alt="user image" fill className="rounded-full"/>
     </div>
     {/* TEXT CONTAINER */}
     <div className=" h-2/3 lg:h-full lg:w-1/2 flex flex-col gap-5 item-center justify-center">

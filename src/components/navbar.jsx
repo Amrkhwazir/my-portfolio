@@ -1,14 +1,11 @@
 "use client"
-
-import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
 import { NavLinks } from './navLinks'
 import { motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-import { faAmilia, faFacebook, faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faEnvelopeOpen } from '@fortawesome/free-regular-svg-icons'
+import {faFacebook, faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope} from '@fortawesome/free-regular-svg-icons'
 
 
 const links = [
@@ -130,19 +127,19 @@ const listItemsVariants = {
       ))}
        <div className=' flex gap-8 w-screen justify-center h-20 absolute bottom-10'>
         <Link className='rounded-full flex items-center justify-center' href="https://github.com/Amrkhwazir" target='_blank'>
-      <Image src="/githubsvg.png" alt=""  width={32} height={32} />
+        <FontAwesomeIcon icon={faGithub} className='text-white text-2xl'/>
         </Link>
         <Link className='rounded-full flex items-center justify-center' href="https://www.facebook.com/profile.php?id=100010422636331" target='_blank'>
-      <Image src="/facebooksvg.png" alt="" width={32} height={32} />
+        <FontAwesomeIcon icon={faFacebook} className='text-white text-2xl'/>
         </Link>
         <Link className='rounded-full flex items-center justify-center' href="mailto:amrkh5678@gmail.com" target='_blank'>
-      <Image src="/Gmail.png" alt="" width={32} height={32} />
+        <FontAwesomeIcon icon={faEnvelope} className='text-white text-2xl'/>
         </Link>
         <Link className='rounded-full flex items-center justify-center' href="https://www.instagram.com/aamirkh53433/" target='_blank'>
-      <Image src="/instagramsvg.png" alt="" width={32} height={32} />
+        <FontAwesomeIcon icon={faInstagram} className='text-white text-2xl'/>
         </Link>
         <Link className='rounded-full flex items-center justify-center' href="https://www.linkedin.com/in/aamir-khan-215836233/" target='_blank'>
-      <Image src="/linkedinroundsvg.png" alt="" width={32} height={32} />
+        <FontAwesomeIcon icon={faLinkedin} className='text-white text-2xl'/>
         </Link>
       </div>
         </motion.div>
