@@ -7,7 +7,7 @@ import Link from 'next/link';
 const items = [
   {
     id: 1,
-    color: "from-red-300 to-blue-300",
+    color: "from-purple-300 to-blue-300",
     title: "React Hotel Reservation",
     desc: "This is Hotel Reservation web UI which is created using ReactJS and styled Components in which user can reserve their Rooms and Booking also find best places and Hotels.",
     img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
@@ -15,7 +15,7 @@ const items = [
   },
   {
     id: 2,
-    color: "from-blue-300 to-violet-300",
+    color: "from-blue-300 to-indigo-300",
     title: "HealthCare Website",
     desc: "This website create using NextJS and TailwindCss in this project user can see their health data and also check their heart meter BPM meter and analysis their health scale find map section to find best hospitals in city.",
     img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
@@ -23,15 +23,15 @@ const items = [
   },
   {
     id: 3,
-    color: "from-violet-300 to-purple-300",
-    title: "Ecommerce Market Site",
+    color: "from-indigo-300 to-purple-300",
+    title: "GPT3 Site",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    img: "/gpt3.PNG",
+    link: "https://famous-pasca-52da3b.netlify.app/",
   },
   {
     id: 4,
-    color: "from-purple-300 to-red-300",
+    color: "from-purple-300 to-sky-300",
     title: "FaceBook Clone",
     desc: "This is a social media platform website which is created using reactjs and custom styling it's a very basic project of mine where use can see posts and active people.",
     img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -39,7 +39,7 @@ const items = [
   },
   {
     id: 4,
-    color: "from-purple-300 to-red-300",
+    color: "from-blue-300 to-purple-300",
     title: "Youtube Clone",
     desc: "This project is a Youtube Clone which is created using ReactJS and Styled Components and fully responsive in this project user can play any videos what they want and seach its favourites videos.",
     img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
